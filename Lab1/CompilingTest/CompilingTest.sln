@@ -1,0 +1,10 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{059D6162-CD51-11D0-AE1F-00A0C90FFFC3}") = "CompilingTest", "CompilingTest.dsp", "{4781F728-6049-402B-817E-CBE5C588190D}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,18 @@
+
+                             实验二：TINY扩充语言的语法分析
+
+
+扩充的语法规则有：实现 while、do while、for语句和求余计算式子，具体文法规则自行构造。
+可参考：P97及P136的文法规则。
+
+(1) While-stmt --> while  exp  do  stmt-sequence  endwhile
+(2) Dowhile-stmt-->do  stmt-sequence  while  exp 
+(3) for-stmt-->for identifier:=simple-exp  to  simple-exp  do  stmt-sequence enddo    步长递增1
+(4) for-stmt-->for identifier:=simple-exp  downto  simple-exp  do  stmt-sequence enddo    步长递减1
+
+1.要求：
+ （1）要提供一个源程序编辑界面，以让用户输入源程序（可保存、打开源程序）
+ （2）可由用户选择是否生成语法树，并可查看所生成的语法树。
+ （3）应该书写完善的软件文档
+
+

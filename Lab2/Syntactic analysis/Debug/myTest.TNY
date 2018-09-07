@@ -1,0 +1,17 @@
+read x; { input an integer }
+for x := 1 to y+5 do
+  fact := 1;
+  repeat
+    fact := fact * x;
+    x := x % 2
+  until x = 0;
+  write fact
+enddo;
+while 0 < x do
+  fact := 1;
+  write fact
+endwhile;
+do 
+  fact := 1;
+  x := x * 2
+while x=0
